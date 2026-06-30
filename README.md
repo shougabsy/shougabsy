@@ -1,126 +1,83 @@
-<div align="center">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/aptype=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Shayma%20Gabsy&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%C2%B7%20ACTIMI%20%C2%B7%20Stuttgart&descAlignY=55&descSize=16" width="100%"/>
+</p>
 
-<!-- Animated header -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:6a0dad,50:c471ed,100:12c2e9&height=220&section=header&text=Shayma%20Gabsy&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Digital%20Health%20Builder%20%7C%20ACTIMI%20Stuttgart&descAlignY=58&descSize=15&descColor=f0e6ff" width="100%"/>
-
-<!-- Typing animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=C471ED&center=true&vCenter=true&multiline=false&width=600&lines=Building+AI+tools+for+mental+health+%F0%9F%A7%A0;Crafting+mobile+health+apps+%F0%9F%A4%B0;Full-stack+engineer+%40+ACTIMI+Stuttgart+%F0%9F%87%A9%F0%9F%87%AA;Master%27s+student+%40+ESPRIT+%F0%9F%8E%93;Passionate+about+healthtech+%F0%9F%92%99" alt="Typing SVG"/>
-
-
-## 👩‍💻 About Me
-
-```ts
-const shayma = {
-  role      : "Software Engineer @ ACTIMI",
-  location  : "Stuttgart, Germany 🇩🇪  ←→  Tunisia 🇹🇳",
-  focus     : ["Digital Health", "AI-assisted tooling", "Mobile apps"],
-  education : "M.Sc. Software Engineering — ESPRIT (2023–2026)",
-  languages : ["Arabic 🟢", "French 🟢", "English 🟡"],
-  currently : "Building AI mental health agents & pregnancy tracker apps",
-  passion   : "Tech that actually helps people 💙",
-};
-```
+<p align="center">
+  <a href="https://www.linkedin.com/in/shayma-gabsy-1a6024342/">LinkedIn</a>
+    &nbsp;&middot;&nbsp;
+      <a href="mailto:shayma.gabsy@esprit.tn">Email</a>
+</p>
 
 ---
 
-## 🏥 Professional Work @ ACTIMI
+### About
 
-> *All production work lives in private repos — here's what I've shipped:*
->
-> ### 🧠 empaitica — AI Mental Health Agent
-> **Multimodal depression detection platform** that communicates empathically with patients in real time.
->
-> - 🎯 Administers **PHQ-9 assessments** dynamically during conversation
-> - - 🚨 Live **crisis alerting** for clinicians when risk is detected
->   - - 🤝 Empathic AI agent that adapts tone to user emotional state
->     - - 🏥 Integrated with **FHIR** for clinical-grade data interoperability
->       - - 🌐 Built the **empaitica website** for public-facing product presence
->        
->         - **Stack:** `TypeScript` `NestJS` `React` `FHIR` `Docker` `AI/LLM`
->        
->         - ---
->
-> ### 🤰 hi-baby — Pregnancy Tracker App
-> **Full-featured mobile health app** for expectant mothers — live at [pregnancyproapp.com](https://pregnancyproapp.com)
->
-> - 📅 Personalized **week-by-week pregnancy insights**
-> - - 🩺 Symptom tracking, appointment reminders & health metrics
->   - - 📱 Cross-platform mobile experience with smooth UX
->     - - ☁️ Real-time sync with a **FHIR-based backend**
->      
->       - **Stack:** `TypeScript` `React Native` `NestJS` `FHIR` `PostgreSQL`
->      
->       - ---
->
-> ## 🎓 Academic Projects
->
-> | Project | Description | Tech |
-> |---------|-------------|------|
-> | 🔵 **prosit** | Problem-based learning — algorithms & Java OOP | `Java` |
-> | 🔵 **shou-java** | Core Java exercises, data structures & design patterns | `Java` |
-> | 🟣 **symfony** | Full web app — MVC, auth, CRUD, REST APIs | `Symfony` `PHP` |
-> | 🔵 **projet** | Collaborative Java academic project | `Java` |
->
-> ---
->
-> ## 🛠️ Tech Stack
->
-> <div align="center">
+I am a software engineer at ACTIMI in Stuttgart, where I build digital health products that improve patient care. I work across the full stack with TypeScript, contribute to React Native mobile apps and NestJS backends, and integrate FHIR healthcare data standards.
 
-**Languages & Frameworks**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
-
-**Data & Cloud**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![FHIR](https://img.shields.io/badge/HL7%20FHIR-FF6B35?style=for-the-badge&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-
-</div>
+Master's in Computer Science at ESPRIT (2023 to 2026). I speak Arabic (native), French (fluent), and English (professional).
 
 ---
 
-## 📊 GitHub Stats
+### Stack
 
-<div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=shougabsy&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=c471ed&icon_color=12c2e9&text_color=ffffff" height="165"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shougabsy&layout=compact&theme=radical&hide_border=true&langs_count=6&bg_color=0d1117&title_color=c471ed&text_color=ffffff" height="165"/>
-
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=shougabsy&theme=radical&hide_border=true&background=0d1117&ring=c471ed&fire=12c2e9&currStreakLabel=c471ed" width="700"/>
-
-  </div>
-
-  ---
-
-  <div align="center">
-
-    ### 💜 *"Building health tech that actually matters — one commit at a time."*
-
-    [![LinkedIn](https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shayma-gabsy-1a6024342/)
-
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:12c2e9,50:c471ed,100:6a0dad&height=120&section=footer" width="100%"/>
-
-    </div>
-<br/>
-
-<!-- Contact badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-shayma--gabsy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shayma-gabsy-1a6024342/)
-[![Email](https://img.shields.io/badge/Email-shayma.gabsy%40esprit.tn-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shayma.gabsy@esprit.tn)
-[![GitHub](https://img.shields.io/badge/GitHub-shougabsy-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shougabsy)
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+    <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native"/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js"/>
+        <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS"/>
+          <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
+            <img src="https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white" alt="Symfony"/>
+              <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+                <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoD
+                  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+                    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+                      <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma"/>
+</p>
 
 ---
+
+### Featured project
+| Project | What it does | Stack | Links |
+| --- | --- | --- | --- |
+| **prosit** | Collaborative academic platform for students | Java, Spring | [Repo](https://github.com/shougabsy/prosit) |
+| **shou-java** | Java desktop application | Java | [Repo](https://github.com/shougabsy/shou-java) |
+| **symfony** | Full-stack web application | Symfony, PHP | [Repo](https://github.com/shougabsy/symfony) |
+| **projet** | Academic project | Various | [Repo](https://github.com/shougabsy/projet) |
+
+### At ACTIMI (private repos)
+
+My day-to-day work lives in private repos. I contribute to digital health products used by real patients and clinicians
+<p align="center">
+  <img src="https://img.shields.io/badge/empaitica-AI%20depression%20detection-22D3EE?style=flat-square" alt="empaitica"/>
+    <img src="https://img.shields.io/badge/hi--baby-Pregnancy%20Tracker%20App-22D3EE?style=flat-square" alt="hi-baby"/>
+</p>
+
+**empaitica** — AI agent for multimodal depression detection. PHQ-9 assessments, crisis alerting, and FHIR integration.
+
+**hi-baby** — Pregnancy tracker app at [pregnancyproapp.com](https://pregnancyproapp.com). Built with TypeScript, used by expecting parents.
+
+---
+
+### GitHub activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shougabsy&show_icons=true&theme=tokyonight&hide_border=true" width="420" alt="GitHub stats"/>
+    &nbsp;
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shougabsy&layout=compact&theme=tokyonight&hide_border=true" width="420" alt="Top languages"/>
+</p>
+
+---
+
+<p align="center">
+  Building health tech that matters.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/shayma-gabsy-1a6024342/">LinkedIn</a>
+    &nbsp;&middot;&nbsp;
+      <a href="mailto:shayma.gabsy@esprit.tn">shayma.gabsy@esprit.tn</a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer" width="100%"/>
+</p>
