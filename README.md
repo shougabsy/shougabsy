@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=bf08f1a8d9">
-  <img src="assets/banner-light.svg?v=a9722b279b" width="100%" alt="Chaima Gabsi, software engineer in Stuttgart, Germany. Real-time AI and full-stack applications for digital health.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.c44b1995e6.svg">
+  <img src="assets/banner-light.edbb1be402.svg" width="100%" alt="Chaima Gabsi, software engineer in Stuttgart, Germany. Real-time AI and full-stack applications for digital health.">
 </picture>
 
 <br>
@@ -16,8 +16,8 @@
 I'm a software engineer in Stuttgart. I build applications that run in real time and handle sensitive data: voice conversations, emotion signals, clinical records. I work across the whole stack, from a model running on the user's device to the API, the web client and the mobile app.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/highlights-dark.svg?v=494794583a">
-  <img src="assets/highlights-light.svg?v=e2faef0e1c" width="100%" alt="3 emotion channels: face, words, voice tone. 4 apps I work on: web, iOS, portal, website. 6 languages on the marketing site. More than 400 commits on EmpAItica since May 2026.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/highlights-dark.fe1cfc8e6f.svg">
+  <img src="assets/highlights-light.cf67e868d7.svg" width="100%" alt="3 emotion channels: face, words, voice tone. 4 apps I work on: web, iOS, portal, website. 6 languages on the marketing site. More than 400 commits on EmpAItica since May 2026.">
 </picture>
 
 ### Now: EmpAItica at ACTIMI
@@ -25,8 +25,8 @@ I'm a software engineer in Stuttgart. I build applications that run in real time
 Engineering thesis at **ACTIMI GmbH** in Stuttgart. **EmpAItica** is an AI application that helps detect depression early and follow patients between consultations. The patient talks with a 3D avatar and answers the PHQ-8 questionnaire by voice. The clinician sees the scores and their trend in a dedicated portal.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/flow-dark.svg?v=5d2de23733">
-  <img src="assets/flow-light.svg?v=9581075d8b" width="100%" alt="How a session flows: voice conversation, face read on the device, words and voice tone, emotion fusion, HL7 FHIR R4 record, clinician portal.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/flow-dark.5d2de23733.svg">
+  <img src="assets/flow-light.9581075d8b.svg" width="100%" alt="How a session flows: voice conversation, face read on the device, words and voice tone, emotion fusion, HL7 FHIR R4 record, clinician portal.">
 </picture>
 
 - **Emotion from three channels.** Face analysis on the device with MediaPipe and ONNX Runtime, a bilingual English and German word lexicon, and a voice tone model (emotion2vec+) served by a FastAPI service.
@@ -38,7 +38,7 @@ Engineering thesis at **ACTIMI GmbH** in Stuttgart. **EmpAItica** is an AI appli
 
 The code belongs to ACTIMI and stays private. Live product: [empaitica.com](https://www.empaitica.com)
 
-<img src="assets/divider.svg?v=ac1dbbb2dd" width="100%" alt="">
+<img src="assets/divider.ac1dbbb2dd.svg" width="100%" alt="">
 
 ### Tech stack
 
@@ -65,6 +65,6 @@ The code belongs to ACTIMI and stays private. Live product: [empaitica.com](http
 
 Arabic (native) · French (B2) · English (B2) · German (A2)
 
-<img src="assets/divider.svg?v=ac1dbbb2dd" width="100%" alt="">
+<img src="assets/divider.ac1dbbb2dd.svg" width="100%" alt="">
 
 <p align="center"><i>Thanks for visiting. Feel free to reach out on LinkedIn.</i></p>
