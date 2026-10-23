@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Chaima Gabsi, software engineer in Stuttgart, Germany">
+  <defs>
+    <radialGradient id="glowL" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9C8ACE" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#9C8ACE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowR" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#C77DA0" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="#C77DA0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbe" cx="0.36" cy="0.3" r="0.78">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.3" stop-color="#E4D9F6"/>
+      <stop offset="0.66" stop-color="#9B86D6"/>
+      <stop offset="1" stop-color="#4B3A7A"/>
+    </radialGradient>
+    <linearGradient id="trait" x1="0" x2="1">
+      <stop offset="0" stop-color="#9C8ACE"/>
+      <stop offset="1" stop-color="#C77DA0"/>
+    </linearGradient>
+    <linearGradient id="fond" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E1829"/>
+      <stop offset="1" stop-color="#2B2240"/>
+    </linearGradient>
+    <clipPath id="cadre"><rect width="1200" height="320" rx="22"/></clipPath>
+    <style>
+      .float { animation: float 7s ease-in-out infinite; }
+      .halo { animation: halo 7s ease-in-out infinite; }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+      @keyframes halo { 0%, 100% { opacity: .6; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .float, .halo { animation: none; } }
+    </style>
+  </defs>
+  <g clip-path="url(#cadre)">
+    <rect width="1200" height="320" fill="url(#fond)"/>
+    <circle cx="1060" cy="30" r="280" fill="url(#glowL)"/>
+    <circle cx="800" cy="340" r="230" fill="url(#glowR)"/>
+    <circle cx="60" cy="-30" r="190" fill="url(#glowL)" opacity="0.6"/>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="318.5" rx="21.5" fill="none" stroke="#3D3056" stroke-width="1.5"/>
+  <g class="float">
+    <circle class="halo" cx="990" cy="162" r="128" fill="url(#glowL)"/>
+    <circle cx="990" cy="162" r="94" fill="url(#orbe)"/>
+    <ellipse cx="958" cy="124" rx="36" ry="20" fill="#FFFFFF" opacity="0.5"/>
+  </g>
+  <text x="74" y="98" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#E3A6C4">SOFTWARE ENGINEER · STUTTGART, GERMANY</text>
+  <text x="70" y="172" font-family="Cambria, Georgia, 'Times New Roman', serif" font-size="70" font-weight="700" fill="#F4ECF3">Chaima Gabsi</text>
+  <text x="74" y="218" font-family="Cambria, Georgia, 'Times New Roman', serif" font-size="25" font-style="italic" fill="#C9B8EC">Real-time AI and full-stack applications for digital health</text>
+  <rect x="74" y="246" width="132" height="4" rx="2" fill="url(#trait)"/>
+</svg>

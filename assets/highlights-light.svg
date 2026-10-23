@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-label="3 emotion channels, 4 apps, 6 languages, more than 400 commits on EmpAItica">
+  <defs>
+    <radialGradient id="glowL" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9C8ACE" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#9C8ACE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowR" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#C77DA0" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#C77DA0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbe" cx="0.36" cy="0.3" r="0.78">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.3" stop-color="#E4D9F6"/>
+      <stop offset="0.66" stop-color="#9B86D6"/>
+      <stop offset="1" stop-color="#5F4B93"/>
+    </radialGradient>
+    <linearGradient id="trait" x1="0" x2="1">
+      <stop offset="0" stop-color="#9C8ACE"/>
+      <stop offset="1" stop-color="#C77DA0"/>
+    </linearGradient>
+    <linearGradient id="chiffre" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7B66B4"/>
+      <stop offset="1" stop-color="#C77DA0"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="0.75" y="0.75" width="283.5" height="174.5" rx="18" fill="#FFFFFF" stroke="#DCCFE2" stroke-width="1.5"/>
+    <rect x="28" y="0.75" width="229" height="4" rx="2" fill="url(#trait)"/>
+    <text x="142.5" y="86" text-anchor="middle" font-family="Cambria, Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" style="font-variant-numeric: lining-nums" fill="url(#chiffre)">3</text>
+    <text x="142.5" y="124" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#3D3056">emotion channels</text>
+    <text x="142.5" y="150" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#6A5E78">face, words, voice tone</text>
+  </g>
+  <g>
+    <rect x="305.75" y="0.75" width="283.5" height="174.5" rx="18" fill="#FFFFFF" stroke="#DCCFE2" stroke-width="1.5"/>
+    <rect x="333" y="0.75" width="229" height="4" rx="2" fill="url(#trait)"/>
+    <text x="447.5" y="86" text-anchor="middle" font-family="Cambria, Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" style="font-variant-numeric: lining-nums" fill="url(#chiffre)">4</text>
+    <text x="447.5" y="124" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#3D3056">apps I work on</text>
+    <text x="447.5" y="150" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#6A5E78">web, iOS, portal, website</text>
+  </g>
+  <g>
+    <rect x="610.75" y="0.75" width="283.5" height="174.5" rx="18" fill="#FFFFFF" stroke="#DCCFE2" stroke-width="1.5"/>
+    <rect x="638" y="0.75" width="229" height="4" rx="2" fill="url(#trait)"/>
+    <text x="752.5" y="86" text-anchor="middle" font-family="Cambria, Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" style="font-variant-numeric: lining-nums" fill="url(#chiffre)">6</text>
+    <text x="752.5" y="124" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#3D3056">languages</text>
+    <text x="752.5" y="150" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#6A5E78">on the marketing site</text>
+  </g>
+  <g>
+    <rect x="915.75" y="0.75" width="283.5" height="174.5" rx="18" fill="#FFFFFF" stroke="#DCCFE2" stroke-width="1.5"/>
+    <rect x="943" y="0.75" width="229" height="4" rx="2" fill="url(#trait)"/>
+    <text x="1057.5" y="86" text-anchor="middle" font-family="Cambria, Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" style="font-variant-numeric: lining-nums" fill="url(#chiffre)">400+</text>
+    <text x="1057.5" y="124" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#3D3056">commits</text>
+    <text x="1057.5" y="150" text-anchor="middle" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#6A5E78">on EmpAItica since May 2026</text>
+  </g>
+</svg>
