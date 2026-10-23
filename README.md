@@ -24,6 +24,11 @@ I'm a software engineer in Stuttgart. I build applications that run in real time
 
 Engineering thesis at **ACTIMI GmbH** in Stuttgart. **EmpAItica** is an AI application that helps detect depression early and follow patients between consultations. The patient talks with a 3D avatar and answers the PHQ-8 questionnaire by voice. The clinician sees the scores and their trend in a dedicated portal.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/flow-dark.svg">
+  <img src="assets/flow-light.svg" width="100%" alt="How a session flows: voice conversation, face read on the device, words and voice tone, emotion fusion, HL7 FHIR R4 record, clinician portal.">
+</picture>
+
 - **Emotion from three channels.** Face analysis on the device with MediaPipe and ONNX Runtime, a bilingual English and German word lexicon, and a voice tone model (emotion2vec+) served by a FastAPI service.
 - **A stable signal.** Smoothing and fusion of the three readings, so the emotion shown to the patient stays steady instead of flickering.
 - **Real-time conversation.** Voice-to-voice dialogue over WebSocket, with a 3D avatar built in three.js.
