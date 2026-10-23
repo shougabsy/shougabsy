@@ -1,97 +1,45 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Shayma%20Gabsy&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20%C2%B7%20ACTIMI%20%C2%B7%20Stuttgart&descAlignY=55&descSize=16" width="100%"/>
-</p>
+## Hi, I'm Chaima Gabsi
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=6E57F7&center=true&vCenter=true&width=500&lines=Software+Engineer+%40+ACTIMI+Stuttgart+%F0%9F%87%A9%F0%9F%87%AA;Building+AI+tools+for+mental+health+%F0%9F%A7%A0;Crafting+digital+health+products+%F0%9F%92%99;Full-stack+TypeScript+%7C+React+Native+%7C+NestJS;Master%27s+student+%40+ESPRIT+%F0%9F%8E%93" alt="Typing SVG"/>
-</p>
+Software engineer in Stuttgart, Germany. I build real-time AI and full-stack applications, currently in digital health.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/shayma-gabsy-1a6024342/">LinkedIn</a>
-    &nbsp;&middot;&nbsp;
-      <a href="mailto:shaymagabsy9@gmail.com">Email</a>
-</p>
+### Now
 
----
+Engineering thesis at **ACTIMI GmbH** in Stuttgart, on **EmpAItica**: an AI application that helps detect depression early and follow patients between consultations. The patient talks with a 3D avatar, answers the PHQ-8 questionnaire by voice, and the clinician sees the scores and the trend in a dedicated portal.
 
-### About
+The parts I work on:
 
-I am a software engineer at ACTIMI in Stuttgart, where I build digital health products that improve patient care. I work across the full stack with TypeScript, contribute to React Native mobile apps and NestJS backends, and integrate FHIR healthcare data standards.
+- **Emotion from three channels.** Face analysis on the device with MediaPipe and ONNX Runtime, a bilingual English and German word lexicon, and a voice tone model (emotion2vec+) served by a FastAPI service.
+- **Signal stability.** Smoothing and fusion of the three readings, so the emotion shown to the patient stays steady instead of flickering.
+- **Real-time conversation.** Voice-to-voice dialogue over WebSocket with a 3D avatar built in three.js.
+- **Clinical data.** HL7 FHIR R4 resources (Patient, QuestionnaireResponse, Observation, Consent, Appointment) and a crisis path that no setting can turn off.
+- **Apps around it.** React web client, iOS app with Expo and React Native distributed through TestFlight, clinician portal with online video consultations, administration, and a marketing site in six languages.
+- **Privacy by design.** Face analysis stays on the device. No camera image is sent to the server.
 
-Master's in Computer Science at ESPRIT (2023 to 2026). I speak Arabic (native), French (fluent), and English (professional).
+The code belongs to ACTIMI and stays private.
 
----
+### Before
 
-### Sta
+- **Data and BI intern**, Hewlett-Packard, Tunisia (2025). Python ETL pipelines, Power BI dashboards, forecasting models.
+- **Software development intern**, ESPRIT, Tunisia (2023 and 2024). Full-stack applications with Spring Boot, React and MySQL.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-    <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native"/>
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js"/>
-        <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS"/>
-          <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
-            <img src="https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white" alt="Symfony"/>
-              <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-                <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
-                  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-                    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
-                      <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma"/>
-</p>
+### Education
 
----
-### Featured projects
+- Master's degree in computer engineering, **ESPRIT**, Tunis (2022 to 2026)
+- Exchange semester, **Philipps-Universität Marburg**, Germany (2025)
 
-| Project | What it does | Stack | Links |
-| --- | --- | --- | --- |
-| **prosit** | Collaborative academic platform for students | Java, Spring | [Repo](https://github.com/shougabsy/prosit) |
-| **shou-java** | Java desktop application | Java | [Repo](https://github.com/shougabsy/shou-java) |
-| **symfony** | Full-stack web application | Symfony, PHP | [Repo](https://github.com/shougabsy/symfony) |
-| **projet** | Academic project | Various | [Repo](https://github.com/shougabsy/projet) |
+### Tech
 
-### At ACTIMI (private repos)
+- **Languages:** TypeScript, Python, Java, SQL
+- **Frontend:** React, Next.js, React Native and Expo, three.js, Tailwind CSS
+- **Backend:** NestJS, FastAPI, Spring Boot, REST and WebSocket APIs
+- **AI:** ONNX Runtime, MediaPipe, PyTorch, LLM and speech integration
+- **Data and tools:** PostgreSQL, Redis, Docker, Railway, GitHub, OpenTelemetry
+- **Health and compliance:** HL7 FHIR R4, GDPR
 
-My day-to-day work lives in private repos. I contribute to digital health products used by real patients and clinicians.
+### Languages
 
-<p align="center">
-  <img src="https://img.shields.io/badge/empaitica-AI%20depression%20detection-22D3EE?style=flat-square" alt="empaitica"/>
-    <img src="https://img.shields.io/badge/hi--baby-Pregnancy%20Tracker%20App-22D3EE?style=flat-square" alt="hi-baby"
-</p>
+Arabic (native) · French (B2) · English (B2) · German (A2)
 
-**empaitica** — AI agent for multimodal depression detection. PHQ-9 assessments, crisis alerting, and FHIR integration.
+### Contact
 
-**hi-baby** — Pregnancy tracker app at [pregnancyproapp.com](https://pregnancyproapp.com). Built with TypeScript, used by expecting parents.
-
----
-
-### GitHub activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shougabsy&show_icons=true&theme=tokyonight&hide_border=true" width="420" alt="GitHub stats"/>
-    &nbsp;
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shougabsy&layout=compact&theme=tokyonight&hide_border=true" width="420" alt="Top languages"/>
-</p>
-
-<p align="center">
-  <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shougabsy/shougabsy/output/snake-dark.svg"/>
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shougabsy/shougabsy/output/snake.svg"/>
-        <img src="https://raw.githubusercontent.com/shougabsy/shougabsy/output/snake.svg" alt="Contribution graph snake animation"/>
-  </picture>
-</p>
-
----
-
-<p align="center">
-    Building health tech that matters.
-</p>
-
-<p align="center">
-    <a href="https://www.linkedin.com/in/shayma-gabsy-1a6024342/">LinkedIn</a>
-    &nbsp;&middot;&nbsp;
-    <a href="mailto:shaymagabsy9@gmail.com">shaymagabsy9@gmail.com</a>
-</p>
-
-<p align="center">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer" width="100%"/>
-</p>
-  </picture>
+[LinkedIn](https://www.linkedin.com/in/shayma-gabsy-1a6024342/) · [shaymagabsy9@gmail.com](mailto:shaymagabsy9@gmail.com)
